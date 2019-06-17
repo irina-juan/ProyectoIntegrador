@@ -1,0 +1,172 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  background-size: cover;
+  background-image: url("imagenes/fondohome3.jpg");
+  font-family: sans-serif;
+
+}
+img.logo {
+  display: block;
+  width: 200px;
+  border-radius: 50%;
+  border: grey 1px solid;
+  margin: 0 auto;
+  margin-top: 35px
+
+  }
+  .photo{
+    align-content: space-between;
+  }
+section.banner{
+  display: none;
+}
+.fasfa-cart-plus{
+  width: 20px;
+}
+header span.fa{
+  background-color: #C6C6C6;
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px;
+  padding: 15px;
+  margin-top: 20px;
+  position: relative;
+  left: 50%;
+  trasform: translateX(-50%);
+  margin-bottom: 10px;
+}
+h2{
+  color: white;
+}
+header ul{
+  list-style: none;
+  padding-left: 0;
+  display: none;
+}
+header nav:hover ul{
+  display: block;
+
+}
+header ul li{
+  background-color: grey;
+  margin-bottom: 3px;
+  padding: 15px;
+  text-align: center;
+}
+header ul li a{
+  color: white;
+  text-decoration: none;
+}
+section.vip-products article{
+  width: 100%;
+
+}
+section.vip-products .photo{
+  width: 100%;
+  align-content: space-between;
+}
+div .photo-container{
+  position: relative;
+  width:
+}
+.special{
+  position: absolute;
+  top: 0px;
+  right: 20px;
+
+}
+.zoom{
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+  color:white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0;
+}
+article.product p{
+  color:black;
+
+}
+article.product a.more{
+  color:white;
+  text-decoration: none;
+  background-color: gray;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+@media only screen and (min-width: 768px) {
+  div.container{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .toggle-nav{
+    display: none;
+  }
+header ul{
+    display: block;
+    overflow: hidden;
+
+  }
+header ul li{
+    float:left;
+    width: 12.5%;
+    margin-right: 5%;
+  }
+header ul li:last-child{
+    margin-right: 0;
+  }
+section.banner{
+    display: block;
+    margin-bottom: 15px;
+    }
+section.banner img{
+    width: 100%;
+  }
+section.vip-products{
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+section.vip-products article.product {
+    float:left;
+    width: 30%;
+    margin-right: 5%;
+  }
+  section.vip-products article.product:nth-child(3n){
+    margin-right: 0px;
+  }
+  footer.main-footer{
+    overflow: hidden;
+    background-color: black;
+    border-top-left-radius: 12%;
+    border-top-right-radius: 12%;
+    height: 100px;
+    margin: 0 auto;
+ }
+ footer.main-footer ul{
+   display: block;
+   overflow: hidden;
+   list-style: none;
+   padding left:0px;
+   margin-left: 270px;
+
+ }
+ footer.main-footer ul li{
+    float: left;
+    margin-top: 30px;
+
+ }
+ footer.main-footer ul li a{
+   text-decoration: none;
+   font-family: sans-serif;
+   font-size: 18px;
+   color:white;
+  padding-left: 10px;
+  border-right: white 1px solid;
+ }
+}
