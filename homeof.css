@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url("imagenes/libro.jpg");
+
+}
+.logo{
+  border-radius: 66%;
+  margin: 0 auto;
+  width: 180px;
+  display:block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  }
+  .boton{
+    position: relative;
+  }
+h2 .B{
+position: absolute;
+font-size: 30px;
+right: 30px;
+color: white;
+background-color: #817E7E;
+height: 20vh;
+text-align: center;
+}
+h2 .M{
+position: absolute;
+font-size: 30px;
+left: 30px;
+color: white;
+background-color: #817E7E;
+height: 20vh;
+text-align: center;
+}
+
+  a{
+    text-decoration: none;
+  }
